@@ -407,7 +407,59 @@ padding-top: 100px;
         background-color: #FAC90F;
         padding: 34px 40px;
         }          
-      
+        .pr_con{
+          display: flex;
+          flex-direction: row;
+          gap: 33px;
+          padding-bottom: 90px;
+          justify-content: center;
+          }
+          .pr_col{
+          display: flex;
+          flex-direction: column;
+          border: 3px solid #fff;
+          align-items: center;
+          padding: 30px;
+          width: 300px;
+          height: 400px;
+          }
+          .pr_col:last-child{
+          background-color: #353535;
+          }
+          .pr_col h3{
+          font-family: 'Glory';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 45px;
+          color: rgba(0, 0, 0, 0.5);
+          -webkit-text-stroke: 2px #FAC90F;
+          text-align: center;
+          padding-bottom: 20px;
+          }
+          .pr_col p{
+          color: #fff;
+          font-family: 'Exo 2';
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 22px;
+          text-align: justify;
+          }
+          .pr_col a{
+          background-color: #FAC90F;
+          font-family: 'Exo 2';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 22px;
+          line-height: 26px;
+          text-align: center;
+          padding: 13px 32px;
+          border-radius: 20px;
+          margin-top: auto;
+          margin-bottom: 0px;
+          text-decoration: none;
+          color: #000;
+          }      
 
 
 
