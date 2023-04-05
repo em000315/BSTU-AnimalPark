@@ -1,0 +1,235 @@
+/* Шрифты*/
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500&family=Glory:wght@700&display=swap');
+/* Сброс стандартных настроек CSS */
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+ul[class], ol[class] {
+padding: 0;
+}
+
+body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd {
+margin: 0;
+}
+
+body {
+min-height: 100vh;
+scroll-behavior: smooth;
+text-rendering: optimizeSpeed;
+line-height: 1.5;
+background-color: #000000;
+}
+
+ul[class],ol[class] {
+list-style: none;
+}
+
+a:not([class]) {
+text-decoration-skip-ink: auto;
+}
+
+img {
+max-width: 100%;
+display: block;
+}
+
+article > * + * {
+margin-top: 1em;
+}
+
+input,button,textarea, select {
+font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+* {
+  animation-duration: 0.03ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.03ms !important;
+  scroll-behavior: auto !important;
+}
+}
+
+.wrapper{
+max-width: 1024px;
+margin: 0 auto;
+}
+.header {
+height: 70px;
+background: rgba(0, 0, 0, 0.5);
+backdrop-filter: blur(5px);
+padding: 0 30px;
+display: flex;
+align-content: center;
+align-items: center;
+justify-content: space-between;
+margin-bottom: -70px;
+z-index: 2;
+position: fixed;
+width: 100%;
+max-width: 1024px;
+}
+
+.logo {  
+font-family: 'Glory';
+font-style: bold;
+font-weight: 700;
+font-size: 45px;
+color: transparent;
+line-height: 50px;
+text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+-webkit-text-stroke: 2px #FAC90F;
+text-decoration: none;
+}
+
+.navigation {
+display: flex;
+column-gap: 40px;
+}
+.navigation > a:hover { 
+  color: #FFC713;
+}
+
+.menu__item {
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+/* Шрифты*/
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500&family=Glory:wght@700&display=swap');
+/* Сброс стандартных настроек CSS */
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+ul[class], ol[class] {
+padding: 0;
+}
+
+body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd {
+margin: 0;
+}
+
+body {
+min-height: 100vh;
+scroll-behavior: smooth;
+text-rendering: optimizeSpeed;
+line-height: 1.5;
+background-color: #000000;
+}
+
+ul[class],ol[class] {
+list-style: none;
+}
+
+a:not([class]) {
+text-decoration-skip-ink: auto;
+}
+
+img {
+max-width: 100%;
+display: block;
+}
+
+article > * + * {
+margin-top: 1em;
+}
+
+input,button,textarea, select {
+font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+* {
+  animation-duration: 0.03ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.03ms !important;
+  scroll-behavior: auto !important;
+}
+}
+
+.wrapper{
+max-width: 1024px;
+margin: 0 auto;
+}
+.header {
+height: 70px;
+background: rgba(0, 0, 0, 0.5);
+backdrop-filter: blur(5px);
+padding: 0 30px;
+display: flex;
+align-content: center;
+align-items: center;
+justify-content: space-between;
+margin-bottom: -70px;
+z-index: 2;
+position: fixed;
+width: 100%;
+max-width: 1024px;
+}
+
+.logo {  
+font-family: 'Glory';
+font-style: bold;
+font-weight: 700;
+font-size: 45px;
+color: transparent;
+line-height: 50px;
+text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+-webkit-text-stroke: 2px #FAC90F;
+text-decoration: none;
+}
+
+.navigation {
+display: flex;
+column-gap: 40px;
+}
+.navigation > a:hover { 
+  color: #FFC713;
+}
+
+.menu__item {
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.firstInfo {
+height: 768px;
+background-image: url(assets/JPG/first_parrot.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+padding: 30px;
+display: flex;
+flex-direction: row;
+align-content: flex-end;
+align-items: flex-end;
+gap: 45px;
+padding-top: 100px;
+}
+.firstInfo > a:hover { 
+  color: #fff;
+}
+.staticButton> p:hover{
+  color: #fff;
+}
+
+
+
+
