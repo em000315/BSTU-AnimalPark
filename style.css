@@ -229,7 +229,51 @@ padding-top: 100px;
 .staticButton> p:hover{
   color: #fff;
 }
-
+.animalParkInfo {
+  width: 544px;
+  height: 395px;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 0px 208px;
+  padding: 20px 50px 30px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+  
+  .animalParkInfo h1 {
+  font-family: 'Glory';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 134px;
+  color: transparent;
+  -webkit-text-stroke: 2px #FAC90F;
+  }
+  .animalParkInfo p {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: right;
+  color: #FFFFFF;
+  }
+  
+  .buttonBuyTicket {
+  background: #FFC713;
+  border-radius: 14px;
+  padding: 17px 30px;
+  
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-decoration: none;
+  color:#000;
+  }
+  
 
 
 
