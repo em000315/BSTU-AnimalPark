@@ -393,7 +393,20 @@ padding-top: 100px;
       .imagesOfAnimals img{
       width: 300px;
       height: auto;
-      }    
+      }
+      .video{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 90px;
+        }
+        .cont_vid{
+        width: 825px;
+        height: auto;
+        background-color: #FAC90F;
+        padding: 34px 40px;
+        }          
       
 
 
