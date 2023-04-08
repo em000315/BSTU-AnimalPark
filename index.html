@@ -10,18 +10,25 @@
 <body>
   <div class="wrapper" id="wrapper">
     <!-- header -->
-        <header class="header">
-          <span class="logo" onclick="slowScroll('#wrapper')">
-            A
-          </span>
-          <nav class="navigation" >
-                  <a class="menu__item" onclick="slowScroll('#advantages')">Advantages</a>
-                  <a class="menu__item" onclick="slowScroll('#photos')">Photos</a>
-                  <a class="menu__item" onclick="slowScroll('#videos')">Videos</a>
-                  <a class="menu__item" onclick="slowScroll('#price')">Price</a>
-                  <a class="menu__item" onclick="slowScroll('#contacts')">Contacts</a>   
-                  <div class="burger" ><img src="assets/SVG/burger.svg" alt="burger"></div>
-        </header>
+    <header class="header">
+      <span class="logo" onclick="slowScroll('#wrapper')">
+        A
+      </span>
+      <nav class="menu">    
+      <input id="menu-toggle" type="checkbox">
+      <label class="menu-btn" for="menu-toggle">
+      <span></span>
+     </label>   
+      <ul class="navigation">
+        <li><a class="menu__item" onclick="slowScroll('#advantages')">Advantages</a></li>
+        <li><a class="menu__item" onclick="slowScroll('#photos')">Photos</a></li>
+        <li><a class="menu__item" onclick="slowScroll('#videos')">Videos</a></li>
+        <li><a class="menu__item" onclick="slowScroll('#price')">Price</a></li>
+        <li><a class="menu__item" onclick="slowScroll('#contacts')">Contacts</a>  </li> 
+        <li><a href="#" class="menu-btn"> <span></span></a> </li>   
+      </ul>   
+      </nav>     
+      </header>
     <!-- main -->
     <main>
         <!-- firstSection  -->
