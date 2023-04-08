@@ -43,9 +43,11 @@ margin-top: 1em;
 
 input,button,textarea, select {
 font: inherit;
-display: none;
 }
 
+#menu-toggle{
+  display: none;
+}
 @media (prefers-reduced-motion: reduce) {
 * {
   animation-duration: 0.03ms !important;
@@ -595,7 +597,7 @@ margin-bottom: 16px;
 .contact{
   margin-top: 35px;
   padding-top: 50px;
-  background-position-x: 370px;
+  background-position-x: 370px
 }
 .advantages .nameOfCont{
   padding-bottom: 60px;
@@ -896,7 +898,7 @@ nav .navigation {
     top: 0px;
     right: -270px;
     width: 270px;
-    height: 600px;
+    height: 1000px;
     margin: 0;
     padding: 80px 40px;
     background-color: #2A2E29;
