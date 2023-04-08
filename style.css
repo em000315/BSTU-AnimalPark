@@ -91,8 +91,8 @@ text-decoration: none;
 display: flex;
 column-gap: 40px;
 }
-.navigation:hover { 
-  color: #FFC713;
+.menu__item:hover{
+  color:#FAC90F;
 }
 
 .menu__item {
@@ -488,19 +488,25 @@ margin-bottom: 16px;
   }
 }
 
-@media(min-width:769px ){
-  .menu-btn{
-    display: none;
-  }
+.menu-btn{
+  display: none;
+}
+.header .navigation .menu-btn {
+  display: none;
 }
 
-@media(max-width:768px){
-  .menu-btn{
-    display: none;
-  }
-  .menu__item{
-    display: block;
+@media(max-width:767px){
+.menu-btn{
+  display: block;
 }
+.navigation li{
+  padding-left: 20px;
+}
+.navigation li:first-child{
+  margin-top: 50px;
+}
+}
+@media(max-width:768px){
   .firstInfo{
   width: 768px;
   height: 563px;
@@ -626,6 +632,7 @@ margin-bottom: 16px;
     width: 26px;
     height: 20px;
   }
+ 
   .animalParkInfo{
     width: 280px;
     min-width: 280px;
@@ -728,10 +735,7 @@ margin-bottom: 16px;
   .ourAnimals{
     padding: 0px;
   }
-  /*.staticButton{
-    max-height: 20px;
-    height: 20px;
-  }*/
+
   .staticButton p{
     font-weight: 300;
   }
@@ -856,13 +860,10 @@ margin-bottom: 16px;
     }*/
   /*Burger*/
 
-.header .navigation .menu-btn {
-  display: none;
-}
+
 @media screen and (max-width: 767px) {
   .header .container .menu-btn {
-    display: block;
-  }
+    display: block; 
 }
 .menu-btn > span,
 .menu-btn > span::before,
@@ -893,7 +894,7 @@ nav {
 nav .navigation {
   display: flex;
   gap: 20px;
-}
+}}
 @media screen and (max-width: 767px) {
   .navigation {
     position: fixed;
@@ -954,5 +955,9 @@ nav .navigation li a {
   right: 0px;
 }
 .menu__item:hover {
-  background-color: #98999a;
-}}
+  color: #FAC90F;
+}
+.menu__item{
+  font-weight: lighter;
+}
+}
