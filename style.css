@@ -110,7 +110,7 @@ text-decoration: none;
 
 .firstInfo {
 height: 768px;
-background-image: url(assets/JPG/first_parrot.jpg);
+background-image: url(assets/jpg/first_parrot.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 padding: 30px;
@@ -367,7 +367,7 @@ display: flex;
 flex-direction: column;
 padding-bottom: 77px;
 align-items: center;
-background-image: url(assets/JPG/cont.jpg);
+background-image: url(assets/jpg/cont.jpg);
 background-repeat: no-repeat;
 background-position: right;
 background-size:contain;
