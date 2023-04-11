@@ -482,7 +482,10 @@ margin-top: auto;
 padding-top: 45px;
 margin-bottom: 16px;
 }
-
+#vid{
+  height: 421px;
+  width: 745px;
+}
 @media(max-width:967px){
   .pr_con{
     flex-wrap: wrap;
@@ -584,6 +587,7 @@ margin-bottom: 16px;
 }
 #vid{
   height: 340px;
+  width: 600px;
 }
 
 .price .nameOfCont{
@@ -706,6 +710,7 @@ margin-bottom: 16px;
 #vid{
   height: 167.42px;
   position: center;
+  width: 258px;
   }
 .video{
   padding-bottom: 15px;
