@@ -11,7 +11,7 @@ const animals = {
       'assets/jpg/2.jpg',
       'assets/jpg/3.jpg',
       'assets/jpg/5.jpg',
-      'assets/jpg/raccon.jpg',
+      'assets/jpg/raccon.png',
       'assets/jpg/bear.jpg',
       'assets/jpg/belka.jpg',
     ],
