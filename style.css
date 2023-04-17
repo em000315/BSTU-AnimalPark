@@ -285,6 +285,9 @@ line-height: 43px;
 text-align: center;
 color: #000000;
 }
+.button_color {
+  background-color:#ff9100;
+}
 .imagesOfAnimals{
 display: flex;
 flex-direction: row;
