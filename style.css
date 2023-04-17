@@ -124,7 +124,7 @@ padding-top: 100px;
 .firstInfo > a:hover { 
   color: #fff;
 }
-.staticButton> p:hover{
+.staticButton:hover{
   color: #fff;
 }
 
@@ -276,7 +276,7 @@ background: #FFC713;
 border-radius: 20px;
 }
 
-.staticButton p {
+.staticButton {
 font-family: 'Exo 2';
 font-style: normal;
 font-weight: 400;
