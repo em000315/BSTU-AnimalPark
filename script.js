@@ -14,7 +14,7 @@ const animals = {
     'assets/JPG/bik.jpg',
   ],
   fluffy: [
-    'assets/JPG/2.jpg',
+    'assets/jpg/2.jpg',
     'assets/JPG/3.jpg',
     'assets/JPG/5.jpg',
     'assets/JPG/raccon.png',
