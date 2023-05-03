@@ -1114,6 +1114,7 @@ height: auto;
 
 .photo__buttons{
   left:0px;
+  width: 780px;
 }
 .container{
   padding: 30px 15px;
@@ -1122,6 +1123,9 @@ height: auto;
 }
 .arrows{
   width: 670px;
+}
+.button {
+  width: 170px;
 }
 }
 
@@ -1140,11 +1144,16 @@ height: auto;
     margin: 0;
   }
   .photo__buttons{
-    display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   gap:30px;
+  width: 320px;
+  }
+  .photo__slider{
+    width: 320px;
+    height: 350px;
   }
   .Name h2{
     padding: 0;
