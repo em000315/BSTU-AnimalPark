@@ -285,20 +285,14 @@ line-height: 43px;
 text-align: center;
 color: #000000;
 }
-.button_color {
+/*.button_color {
   background-color:#ff9100;
-}
-.imagesOfAnimals{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-gap: 33px;
-}
-.imagesOfAnimals img{
+}*/
+
+/*.photo__image img{
 width: 300px;
 height: auto;
-}
+}*/
 .video{
 display: flex;
 flex-direction: column;
@@ -742,9 +736,9 @@ margin-bottom: 16px;
 .staticButton p{
   font-weight: 300;
 }
-.hide2{
+/*.hide2{
   display: none;
-}
+}*/
 .video{
   padding: 0px;
  }
@@ -963,4 +957,214 @@ nav .navigation li a {
 .menu__item{
   font-weight: lighter;
 }
+}
+/*.slider {
+  transition-duration: s;
+  position: absolute;
+  display: flex;
+}
+.photo_slider{
+  position: relative;
+  height: 730px;
+  width: 1024px;
+  overflow: hidden;
+}
+.photo__image{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 33px;
+  }
+
+
+}*/
+
+.bt h3, button{
+  font-size: 50px;
+  color:#FAC90F;
+  background-color:transparent;
+  border:none;
+}
+.photo {
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.photo__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 65px;
+  padding-bottom: 60px;
+  align-items:center;
+  position: relative;
+  left: 100px;
+}
+.photo__buttons button {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #000000;
+  align-items:center;
+  
+
+}
+.button {
+width: 237px;
+max-height: 112px;
+min-height: 111px;
+display: flex;
+flex-direction: column;
+align-items:center;
+justify-content: center;
+padding: 15px 35px;
+gap: 10px;
+background: #FFC713;
+border-radius: 20px;
+
+}
+
+.photo__buttons .button:hover {
+  color:white;
+}
+
+.button_color {
+  background-color:#ff9100;
+}
+.photo__slider {
+  position: relative;
+  height: 760px;
+  width: 1024px;
+  overflow: hidden;
+}
+.slider {
+  display: flex;
+  width: 300%;
+  position: absolute;
+  left: -100%;
+  transition-duration: 3s;
+}
+.photo__image {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  justify-content: space-around;
+}
+.photo__image img {
+width: 300px;
+height: auto;
+}
+.arrows {
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  justify-content: space-between;
+  top: calc(43% );
+  opacity: 0;
+  transition: all 2s;
+}
+.slider:hover + .arrows, .arrows:hover {
+  opacity: 1;
+}
+.move_left {
+  animation-name: move_left;
+  animation-duration: 2s;
+}
+@keyframes move_left {
+  0% {
+    left: -100%;
+ }
+  100% {
+    left: -200%;
+ }
+}
+.move_right {
+  animation-name: move_right;
+  animation-duration: 2s;
+}
+@keyframes move_right {
+  0% {
+    left: -100%;
+ }
+  100% {
+    left: 0%;
+ }
+}
+
+@media screen and (max-width: 768px){
+
+.photo__buttons{
+  left:0px;
+}
+.container{
+  padding: 30px 15px;
+  width: 710px;
+  overflow: hidden;
+}
+.arrows{
+  width: 670px;
+}
+}
+
+@media screen and (max-width: 320px){
+  .container{
+    padding: 0px 0px;
+    width: 300px;
+    height: 850px;
+    overflow: hidden;
+  }
+  .arrows{
+    width: 300px;
+  }
+  .photo{
+    margin: 0;
+  }
+  .photo__buttons{
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap:30px;
+  }
+  .Name h2{
+    padding: 0;
+  }
+  @keyframes move_left {
+    0% {
+      left: -50%;
+   }
+    100% {
+      left: -100%;
+   }
+  }
+  .move_right {
+    animation-name: move_right;
+    animation-duration: 2s;
+  }
+  @keyframes move_right {
+    0% {
+      left: -50%;
+   }
+    100% {
+      left: 0%;
+   }
+  }
 }
