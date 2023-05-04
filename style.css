@@ -1243,7 +1243,8 @@ height: auto;
   color:#FAC90F;
 }
 .text:active{
-  background: rgba(135, 135, 135, 0.3);
+  background: #FAC90F;
+  color:#000;
 }
 /*adapt*/
 @media(max-width:768px){
