@@ -1156,12 +1156,16 @@ height: auto;
   width: 496px;
   height: 328px; 
   padding-top: 20px;
+  text-align: center;
   }
   .form{
   margin: 20px 264px ;
   }
 
   .form_choose{
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
   color: white;
   text-align: center;
   font-family: 'Exo 2';
@@ -1180,6 +1184,9 @@ height: auto;
   line-height: 36px;
   margin-bottom:10px;
   }
+  .button {
+    text-align: center;
+   } 
 .calculate{
   width: 174px;
   height: 63px;
@@ -1205,53 +1212,28 @@ height: auto;
   text-align: right;
   font-size: 40px;
 }
-/*Крестик*/
-.closeModal {
-	position: absolute;
-	width: 24px;
-	height: 24px;
-	opacity: 0.2;
-	cursor: pointer;
-  padding-left:453px;
-  top:252px;
-}
-.closeModal:hover{
-  opacity: 1;
+.btnComplate {
+  pointer-events: none;
 }
 
-.closeModal::before,
-.closeModal::after {
-	content: '';
-	position: absolute;
-	top: 10px;
-	display: block;
-	width: 33px;
-	height: 2px;
-	background: #ffffff;
+.btnComplate.active {
+  pointer-events: all;
+  color: #FFC713;
 }
-
-.closeModal::before {
-	transform: rotate(45deg);
-}
-
-.closeModal::after {
-	transform: rotate(-45deg);
-}   
 
 /*Active bottoms*/
  .text:hover{
   color:#FAC90F;
 }
 .text:active{
-  background: #FAC90F;
-  color:#000;
+  color:#FAC90F;
 }
 /*adapt*/
 @media(max-width:768px){
   .lineAndName {
     position: center; 
   }
-  .Name h4{
+  .Name button{
     width:540px ;
   }
   .lineName{
@@ -1262,13 +1244,13 @@ height: auto;
   }
 } 
 @media(max-width:320px){
- .Name h4{
+ .Name button{
   font-size:36px;
   width: 200px;
   margin-top: 40px; 
   line-height:43.2px; 
  }
- .text h4{
+ .text button{
   line-height: 30px;
  }
  .Name{
@@ -1277,7 +1259,6 @@ height: auto;
  }
  .form{
   margin: 0 20px 40px 20px;
-  
  }
  .grayCont{
   width: 280px;
@@ -1285,10 +1266,6 @@ height: auto;
  }
  .total{
   width: 280px;
- }
- .closeModal{
-  padding-left:238px;
-  top:200px;
  }
  .form_choose, .text, .left{
   font-size:25px;

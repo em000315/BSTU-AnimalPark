@@ -8,6 +8,7 @@
 </head>
 <!-- body -->
 <body>
+  
   <div class="wrapper" id="wrapper">
     <!-- header -->
     <header class="header">
@@ -39,25 +40,24 @@
           <div class="lineName"></div>
         </div>
         <div class="form">        
-          <div class="closeModal"></div>      
             <div class="grayCont">              
-                <div class="choose">                 
+                <div id="chs1" class="choose">                 
                   <h3 class="form_choose">Choose the category</h3>
-                  <h4 class="text">Child (3 to 14)</h4>
-                  <h4 class="text">Adult</h4>
+                  <button id="bt1" class="text">Child (3 to 14)</button><br>
+                  <button id="bt2" class="text">Adult</button>
                 </div>
-                <div class="choose2">
+                <div  id="chs2" class="choose2">
                   <h3 class="form_choose">Choose park zones</h3>
-                  <h4 class="text">Animal Park/Forest Secrets</h4>
-                  <h4 class="text">Two zones</h4>
+                  <button id="bt3" class="text">Animal Park/Forest Secrets</button>
+                  <button id="bt4" class="text">Two zones</button>
                 </div>
             </div>
             <div class="calculate">
-              <h3 class="text"> Calculate</h3>
+              <button id="calcThis" type="button" onclick="calculate()" class="text btnComplate">Calculate</button>
             </div>
           <div class="total">
             <h3 class="left"> Total price is</h3>
-            <h3 class="right"> 15$ </h3>
+            <h3 id="result" class="right"> 0 $</h3>
           </div>
         </div>
       </section>
@@ -94,7 +94,7 @@
       </div>
   </footer>
 </div>
-
+<script src="calc.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
   function slowScroll(id) {
