@@ -13,6 +13,7 @@ secondSection.addEventListener("click", hundleSecondSelect);
 function hundleFirstSelect(event) {
  obr1 = event.target.id
  if (obr1 && obr2) calcThis.classList.add("active")
+ 
 }
 
 function hundleSecondSelect(event) {
@@ -36,3 +37,4 @@ function calculate() {
 
  document.getElementById("result").innerHTML = resultat + " $";
 }
+
