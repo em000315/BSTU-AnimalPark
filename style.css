@@ -637,7 +637,7 @@ footer {
     margin: 60px 0 16px 0 100px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width:500px) {
   .advantages {
     padding-top: 0px;
   }
@@ -1089,7 +1089,7 @@ footer {
     width: 170px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .container {
     padding: 0px 0px;
     width: 300px;
@@ -1256,7 +1256,7 @@ footer {
     margin: 20px 136px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 500px) {
   .Name h4 {
     font-size: 36px;
     width: 200px;
