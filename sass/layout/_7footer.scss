@@ -1,0 +1,61 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 28px;
+    background-color: #0E0E0E;
+    justify-content: space-between;
+    align-content: space-between;
+    }
+    .f_instr {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: 50%;
+    }
+    .f_instr > a:hover{
+      color:#FAC90F;
+    }
+    .f_instr a,
+    .f_instr p,
+    .f_contact p,
+    .f_autor p,
+    .f_contact a
+    {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color:#fff;
+    text-decoration: none;
+    }
+    .f_social{
+    align-content:center;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: flex-end;
+    }
+    
+    .f_contact{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    }
+    .f_cont > a:hover{
+      color:#FAC90F;
+    }
+    .f_autor{
+    width: auto;
+    margin-top: auto;
+    }
+    .f_contact p:first-child{
+    padding-top: 45px;
+    margin-bottom: 16px;
+    }
+    #vid{
+      height: 421px;
+      width: 745px;
+    }

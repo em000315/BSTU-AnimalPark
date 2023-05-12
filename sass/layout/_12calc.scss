@@ -1,0 +1,168 @@
+/*Secondpage*/
+/*Calculator*/
+.nameOfCalc {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    gap:10px;
+    
+    }
+    .lineName{
+    width: 182px;
+    border-top:2px solid #FFC713;
+    margin-top: 120px;
+    }
+    
+    .nameOfCalc h4 {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 72px;
+    color: #FFC713;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    }
+  
+    .grayCont {
+    background: rgba(135, 135, 135, 0.3);
+    border-radius: 30px;
+    width: 496px;
+    height: 328px; 
+    padding-top: 20px;
+    text-align: center;
+    }
+    .form{
+    margin: 20px 264px ;
+    }
+  
+    .form_choose{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    font-family: 'Exo 2';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 20px;
+   }
+   
+   .text, .left, .right {
+    color: white;
+    text-align: center;
+    font-family: 'Exo 2';
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom:10px;
+    }
+    .button {
+      text-align: center;
+     } 
+  .calculate{
+    width: 174px;
+    height: 63px;
+    background: rgba(135, 135, 135, 0.3);
+    border-radius:20px;
+    margin: 36px auto; 
+    padding: 11px 25px;
+    
+  }
+  .total{
+    width: 496px;
+    height: 63px;
+    background: rgba(135, 135, 135, 0.3);
+    border-radius:20px;
+    padding: 11px 25px;
+    display: flex;
+    justify-content: space-between
+  }
+  .left{
+    text-align: left;
+  }
+  .right{
+    text-align: right;
+    font-size: 40px;
+  }
+  .btnComplate {
+    pointer-events: none;
+  }
+  
+  .btnComplate.active {
+    pointer-events: all;
+    color: #FFC713;
+  }
+  
+  /*adapt*/
+  @media(max-width:768px){
+    .lineAndName {
+      position: center; 
+    }
+    .Name button{
+      width:540px ;
+    }
+    .lineName{
+      width:90px;
+    }
+    .form{
+      margin: 20px 136px;
+    }
+  } 
+  @media(max-width:320px){
+   .Name h4{
+    font-size:36px;
+    width: 200px;
+    margin-top: 40px; 
+    line-height:43.2px; 
+   }
+   .text button{
+    line-height: 30px;
+   }
+   .Name{
+    width: 200px;
+    margin-top: 40px;
+   }
+   .form{
+    margin: 0 20px 40px 20px;
+   }
+   .grayCont{
+    width: 280px;
+    height: 400px;
+   }
+  
+   .total{
+    width: 280px;
+   }
+   .form_choose, .text, .left{
+    font-size:25px;
+   }
+   .right{
+    font-size: 30px;
+   }
+   .choose{
+    margin-top: 20px;
+   }
+   .nameOfCalc{
+    align-items: flex-start;
+    text-align: center;
+   }
+  }
+  /*Active bottoms*/
+  .text:hover{
+    color:#FAC90F;
+  }
+  .txt{
+    pointer-events: all;
+  }
+  .txt.active{
+    color:#FFC713;
+  }
+  .txt:active{
+    color:#FFC713;
+  }
+  .txt3, .txt4{
+    color:#FFC713;
+  }

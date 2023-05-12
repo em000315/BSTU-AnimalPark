@@ -121,4 +121,3 @@ buttonRight.addEventListener('click', sliderLeft);
 buttonLeft.addEventListener('click', sliderRight);
 buttonRight.addEventListener('click', sliderLeft);
   
- 

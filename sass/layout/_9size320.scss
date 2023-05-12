@@ -1,0 +1,187 @@
+@media(max-width:320px){
+    .advantages{
+      padding-top: 0px;
+    }
+    .header{
+      width:320px;
+      height: 40px;
+      padding:10px ;
+    }
+    .logo{
+      font-size:28px ;
+    }
+    .menu-btn{
+     /* display: block;*/
+      width: 26px;
+      height: 20px;
+    }
+   
+    .animalParkInfo{
+      width: 280px;
+      min-width: 280px;
+      height: 210px;
+      padding: 14px 14px 10px 214px;
+      padding-left: 14px;
+      padding-right: 14px;
+      padding-bottom: 10px;
+      backdrop-filter: blur(5px);
+      border-radius: 0px 100px;
+    }
+    .firstInfo{
+      margin:0;
+      width:320px;
+      padding: 20px;
+      height: 480px; 
+      background-image: url(assets/JPG/ppp.jpg);
+      position: center;
+      position: flex;
+      align-content: flex-end;
+      justify-content: flex-end;
+      flex-direction: column;
+    }
+    
+    .animalParkInfo h1{
+      margin: 0px;
+      font-size: 60px;
+      margin-top: 14px;
+      text-align: left;
+      width:160px;
+      height: 124px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      line-height: 67px;
+    }
+    .animalParkInfo p{
+      
+      font-size: 16px;
+      line-height: 19px;
+      text-align: right;
+    }
+    .nameOfCont h2{
+      font-size: 36px;
+      padding: 0px;
+      padding-bottom: 60px;
+    }
+    .lineAndName{
+      display: none;
+    }
+    .name{
+      height: 50px;
+    }
+    .nameOfCont{
+      padding-bottom: 30px ;
+    }
+    .yellowCont{
+    width: 260px;
+    height: 800px;
+    border-radius: 0 60px;
+    flex-direction: column;
+    row-gap: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    }
+    
+  .cont_vid{
+    width: 288px;
+    height: 195px;
+    padding: 13.79px 15.04px;
+    }
+  #vid{
+    height: 167.42px;
+    position: center;
+    width: 258px;
+    }
+  .video{
+    padding-bottom: 15px;
+    }
+  .pr_con{
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 0px;
+    }
+  .orangeBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap:30px;
+  }
+  .imagesOfAnimals{
+    position: center;
+    height: 300px;
+    width: 258px;
+  }
+  .ourAnimals{
+    padding: 0px;
+  }
+  
+  .staticButton p{
+    font-weight: 300;
+  }
+  /*.hide2{
+    display: none;
+  }*/
+  .video{
+    padding: 0px;
+   }
+  .contact h2 {
+    font-size: 50px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-left: 56px;
+  }
+  .name, .phone, .message{
+    height: 60px;
+  }
+  .footer{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    position: center;
+  }
+  .f_cont{
+    padding-top: 0px;
+    font-size: 15px;
+  }
+  
+  .f_instr a, .f_instr p, .f_contact p, .f_autor p, .f_contact a {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px; 
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .f_instr, .f_social, .f_contact  {
+    width:280px;
+    position: center;
+    justify-content: center;
+  }
+  .contact form{
+    margin:30px;
+    position:center;
+  }
+  .contact{
+    margin-top: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(assets/JPG/last.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    }
+  .form action{
+    margin:0;
+    }
+  }
