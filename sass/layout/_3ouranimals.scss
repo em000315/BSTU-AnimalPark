@@ -1,0 +1,50 @@
+.ourAnimals {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding-bottom: 90px;
+    
+    }
+    
+    .orangeBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 65px;
+    /*padding: 30px;*/
+    padding-bottom: 60px;
+    }
+    
+    .staticButton {
+    max-width: 237px;
+    max-height: 112px;
+    min-height: 111px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding: 15px 35px;
+    gap: 10px;
+    background: #FFC713;
+    border-radius: 20px;
+    }
+    
+    .staticButton {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+    }
+    /*.button_color {
+      background-color:#ff9100;
+    }
+    
+    /*.photo__image img{
+    width: 300px;
+    height: auto;
+    }*/

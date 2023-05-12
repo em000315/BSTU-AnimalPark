@@ -1,0 +1,128 @@
+@media(max-width:967px){
+    .pr_con{
+      flex-wrap: wrap;
+      gap: 48px;
+      padding-bottom: 0px;
+    }
+  }
+  .header .navigation .menu-btn {
+    display: none;
+  }
+  
+  @media(max-width:767px){
+  .navigation li{
+    padding-left: 20px;
+  }
+  .navigation li:first-child{
+    margin-top: 50px;
+  }
+  }
+  
+  
+  @media(max-width:768px){
+  .firstInfo{
+    width: 768px;
+    height: 563px;
+  }
+  .advantages{
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+  }
+  .animalParkInfo{
+    width: 435px;
+    min-width: 435px;
+    height: 305px;
+    padding: 0px;
+    padding-left: 40px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    backdrop-filter: blur(5px);
+    border-radius: 0px 160px;
+  }
+  .animalParkInfo h1{
+    font-size: 100px;
+    line-height: 112px;
+  }
+  .lineAndName {
+    position: center;
+    
+  }
+  .buttonBuyTicket{
+    padding: 14px 29px;
+  }
+  .yellowCont{
+    width: 600px;
+    height: 420px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  .icons{
+    width: 50%;
+    max-width: inherit;
+  }
+  .icons p{
+    max-width: 140px;
+    padding-top: 15px;
+  }
+  .orangeBlock{
+    gap:40px;
+    padding-bottom: 60px;
+  }
+  .staticButton{
+    max-width: 185px;
+    width: 185px;
+  }
+  .cont_vid{
+    width: 670px;
+    height: 396px;
+    padding: 28px 35px;
+  }
+  .nameOfCont{
+    padding-bottom: 60px;
+  }
+  .ourAnimals{
+    padding-bottom: 10px;
+  }
+  .hide{
+    display: none;
+  }
+  .imagesOfAnimals{
+    gap:30px;
+  }
+  .video .nameOfCont{
+    padding-bottom: 60px;
+  }
+  .video{
+    padding-bottom: 60px;
+  }
+  #vid{
+    height: 340px;
+    width: 600px;
+  }
+  
+  .price .nameOfCont{
+    padding-bottom: 45px;
+  }
+  .pr_con{
+    flex-wrap: wrap;
+    gap: 48px;
+    padding-bottom: 0px;
+  }
+  .contact{
+    margin-top: 35px;
+    padding-top: 50px;
+    background-position-x: 370px
+  }
+  .advantages .nameOfCont{
+    padding-bottom: 60px;
+  }
+  .contact{
+    margin-top: 48px;
+    padding: 50px 0 77px 0;
+  }
+  .form action{
+    margin:60px 0 16px 0  100px;
+  }
+  }
