@@ -37,4 +37,28 @@ function calculate() {
 
  document.getElementById("result").innerHTML = resultat + " $";
 }
+let acc = document.querySelectorAll('.txt1');
 
+acc.forEach(item => {
+    item.addEventListener('click', e => {
+    if (e.target.classList.contains('txt3')) {
+        e.target.classList.remove('txt3');
+      return;
+    }
+    acc.forEach(e=>e.classList.remove('txt3'));
+    e.target.classList.add('txt3');
+  });
+});
+
+let abb = document.querySelectorAll('.txt2');
+
+abb.forEach(item => {
+  item.addEventListener('click', e => {
+  if (e.target.classList.contains('txt4')) {
+      e.target.classList.remove('txt4');
+    return;
+  }
+  abb.forEach(e=>e.classList.remove('txt4'));
+  e.target.classList.add('txt4');
+});
+});

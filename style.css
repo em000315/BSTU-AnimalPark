@@ -1241,23 +1241,6 @@ footer {
   color: #FFC713;
 }
 
-.txt {
-  pointer-events: all;
-}
-
-.txt.active {
-  color: #FFC713;
-}
-
-/*Active bottoms*/
-.text:hover {
-  color: #FAC90F;
-}
-
-.text:active {
-  color: #FAC90F;
-}
-
 /*adapt*/
 @media (max-width: 768px) {
   .lineAndName {
@@ -1274,7 +1257,7 @@ footer {
   }
 }
 @media (max-width: 320px) {
-  .Name button {
+  .Name h4 {
     font-size: 36px;
     width: 200px;
     margin-top: 40px;
@@ -1310,4 +1293,24 @@ footer {
     align-items: flex-start;
     text-align: center;
   }
+}
+/*Active bottoms*/
+.text:hover {
+  color: #FAC90F;
+}
+
+.txt {
+  pointer-events: all;
+}
+
+.txt.active {
+  color: #FFC713;
+}
+
+.txt:active {
+  color: #FFC713;
+}
+
+.txt3, .txt4 {
+  color: #FFC713;
 }/*# sourceMappingURL=style.css.map */
