@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> 
+    <title>Animal Park</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<!-- body -->
+<body>
+  
+  <div class="wrapper" id="wrapper">
+    <!-- header -->
+    <header class="header">
+      <span class="logo" onclick="slowScroll('#wrapper')">
+        A
+      </span>
+      <nav class="menu">    
+      <input id="menu-toggle" type="checkbox">
+      <label class="menu-btn" for="menu-toggle">
+      <span></span>
+     </label>   
+      <ul class="navigation">
+        <li><a href="index.html" class="menu__item" onclick="slowScroll('#advantages')">Advantages</a></li>
+        <li><a href="index.html" class="menu__item" onclick="slowScroll('#photos')">Photos</a></li>
+        <li><a href="index.html" class="menu__item" onclick="slowScroll('#videos')">Videos</a></li>
+        <li><a href="index.html" class="menu__item" onclick="slowScroll('#price')">Price</a></li>
+        <li><a href="index.html" class="menu__item" onclick="slowScroll('#contacts')">Contacts</a>  </li> 
+      </ul>   
+
+      </nav>     
+      </header>
+
+      <!--Calculator-->
+
+      <section class="Calculator">
+        <div class="nameOfCalc">
+          <div class="lineName"></div>
+          <div class="Name"><h4>Calculate total price</h4></div>
+          <div class="lineName"></div>
+        </div>
+        <div class="form">        
+            <div class="grayCont">              
+                <div id="chs1" class="choose">                 
+                  <h3 class="form_choose">Choose the category</h3>
+                  <div id="bt1" class="text txt1">Child (3 to 14)</div>
+                  <div id="bt2" class="text txt1">Adult</div>
+                </div>
+                <div  id="chs2" class="choose2">
+                  <h3 class="form_choose">Choose park zones</h3>
+                  <div id="bt3" class="text txt2">Animal Park/Forest Secrets</div>
+                  <div id="bt4"  class="text txt2">Two zones</div>
+                </div>
+            </div>
+            <div class="calculate">
+              <button id="calcThis" type="button" onclick="calculate()" class="text btnComplate">Calculate</button>
+            </div>
+          <div class="total">
+            <h3 class="left"> Total price is</h3>
+            <h3 id="result" class="right"> 0 $</h3>
+          </div>
+        </div>
+      </section>
+          <!-- footer -->
+    <footer id="footer" class="footer">
+      <div class="f_instr">
+        <p>©2023</p>
+        <a href="https://github.com/em000315/BSTU-AnimalPark">github</a>
+        <a href="https://www.figma.com/file/2GUvLAVD93niexqbccz1BM/Animals-Park?node-id=0%3A1&t=HmjeiJxioWE3G4BP-1">Figma</a>
+      </div>
+      <div class="f_social">
+        <a href="https://www.tiktok.com/@animalspark_baranovichi">
+          <img src="assets/SVG/ttt.svg" alt="ttt">
+        </a>
+        <a href="https://t.me/parkdipriz">
+          <img src="assets/SVG/telega.svg" alt="telega">
+        </a>
+        <a href="https://www.instagram.com/animalspark.by/">
+          <img src="assets/SVG/inst.svg" alt="inst">
+        </a>          
+      </div>
+      <div class="f_contact">
+        <p class="f_cont">
+          <a href="https://goo.gl/maps/XxenhWkjkDpAwqh46">Baranovichi region, Malahovckii ss 31</a>
+        </p>
+        <p class="f_cont">
+          <a href="tel:80162563876">8(016)2563876</a>
+        </p>
+      </div>
+      <div class="f_autor">
+        <p>
+          Разработан Короб А.Н., ЭМ-3
+        </p>
+      </div>
+  </footer>
+</div>
+<script src="calc.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  function slowScroll(id) {
+    $('html, body').animate({
+      scrollTop: $(id).offset().top      
+    }, 500);
+  }
+</script>
+
+</body>
+</html>
